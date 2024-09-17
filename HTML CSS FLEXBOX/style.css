@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Container */
+.container{
+    display: flex;
+    height: 500px;
+    width: 800px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 15px 15px 20px black;
+ 
+}
+
+/*FLEXBOX */
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    background: white;
+
+}
+
+.form h2{
+    font-size: 3rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 40px;
+
+}
+
+.username{
+    padding: 12px;
+    width: 65%;
+    margin: 5px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 20px;
+
+}
+
+.email{
+    padding: 12px;
+    width: 65%;
+    margin: 5px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 20px;
+}
+
+.password{
+    padding: 12px;
+    width: 65%;
+    margin: 5px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 20px;
+}
+
+
+
+#submit{
+    padding: 12px  30px;
+    width: 65%;
+    margin-top: 5px;
+    background-color: aquamarine;
+    color: white;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+
+}
+
+#submit:hover{
+    cursor: pointer;
+    background-color: rgb(215, 232, 232);
+    
+}
+
+/* Right Side */
+.side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+   
+}
+
+.side img{
+    width: 480px;
+    height: 495px;
+    padding: 12px;
+
+}
+
